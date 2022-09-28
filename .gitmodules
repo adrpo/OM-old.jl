@@ -1,15 +1,30 @@
-[submodule "HybridDAEParser"]
-	path = HybridDAEParser
-	url = git@github.com:JKRT/HybridDAEParser.git
 [submodule "MetaModelica.jl"]
 	path = MetaModelica.jl
-	url = git@github.com:OpenModelica/MetaModelica.jl.git
+	url = ../../OpenModelica/MetaModelica.jl.git
 [submodule "Absyn.jl"]
 	path = Absyn.jl
-	url = git@github.com:OpenModelica/Absyn.jl.git
+	url = ../../OpenModelica/Absyn.jl.git
 [submodule "SCode.jl"]
 	path = SCode.jl
-	url = git@github.com:OpenModelica/SCode.jl.git
+	url = ../OpenModelica/SCode.jl.git
 [submodule "DAE.jl"]
 	path = DAE.jl
-	url = git@github.com:JKRT/DAE.jl.git
+	url = ../DAE.jl.git
+[submodule "OMBackend.jl"]
+	path = OMBackend.jl
+	url = ../OMBackend.jl.git
+[submodule "ListUtil.jl"]
+	path = ListUtil.jl
+	url = ../ListUtil.jl.git
+[submodule "ArrayUtil.jl"]
+	path = ArrayUtil.jl
+	url = ../ArrayUtil.jl.git
+[submodule "ImmutableList.jl"]
+	path = ImmutableList.jl
+	url = ../../OpenModelica/ImmutableList.jl.git
+[submodule "OMFrontend.jl"]
+	path = OMFrontend.jl
+	url = ../OMFrontend.jl.git
+[submodule "OMParser.jl"]
+	path = OMParser.jl
+	url = ../../OpenModelica/OMParser.jl.git
